@@ -27,7 +27,10 @@ import HeaderCart from './HeaderCart.vue'
 
 <style scoped lang='scss'>
 .app-header {
+  position: sticky;
+  top: 0;
   background: #fff;
+  z-index: 9999;
 
   .container {
     display: flex;
