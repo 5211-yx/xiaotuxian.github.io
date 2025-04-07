@@ -3,7 +3,7 @@ import {useUserStore} from '@/stores/user.js'
 import {useRouter} from 'vue-router'
 const router = useRouter()
 const userStore = useUserStore()
-console.log(userStore, 'userStore')
+// console.log(userStore, 'userStore')
 const confirm = () => {
   // console.log('用户要退出登录了');
   userStore.clearInfo()
@@ -28,6 +28,7 @@ const confirm = () => {
             </el-popconfirm>
           </li>
           <li><a href="javascript:;">我的订单</a></li>
+          <!-- <li><a href="#">我的订单</a></li> -->
           <li><a href="javascript:;">会员中心</a></li>
         </template>
         <template v-else>
@@ -51,6 +52,7 @@ const confirm = () => {
     align-items: center;
     li {
       a {
+        // border-left: 2px solid #666;   这样写每个框前面都有边框
         padding: 0 15px;
         color: #cdcdcd;
         line-height: 1;
@@ -65,7 +67,7 @@ const confirm = () => {
           color: $xtxColor;
         }
       }
-
+      //这样写相当于是第一个li之后的每个li里面的a才会有边框
       ~li {
         a {
           border-left: 2px solid #666;

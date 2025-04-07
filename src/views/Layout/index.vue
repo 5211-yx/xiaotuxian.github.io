@@ -19,4 +19,4 @@ onMounted(() => categoryStore.getCategory())
   <!-- <RouterView :key="$route.fullPath" /> -->
    <RouterView/>
   <LayoutFooter />
-</template>@/stores/categoryStore
+</template>

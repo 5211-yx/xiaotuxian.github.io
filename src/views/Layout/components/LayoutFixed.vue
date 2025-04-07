@@ -56,6 +56,7 @@ const categoryStore = useCategoryStore()
   .logo {
     width: 200px;
     height: 80px;
+    // background: url("@/assets/images/logo.png") no-repeat center;
     background: url("@/assets/images/logo.png") no-repeat right 2px;
     background-size: 160px auto;
   }

@@ -24,7 +24,8 @@ defineProps({
       transition: all .5s;
 
       &:hover {
-        transform: translate3d(0, -3px, 0);
+        // transform: translate3d(0, -3px, 0);
+        transform: translateY(-3px);
         box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
       }
 
