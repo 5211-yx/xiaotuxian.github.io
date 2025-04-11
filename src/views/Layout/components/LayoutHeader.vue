@@ -30,7 +30,7 @@ import HeaderCart from './HeaderCart.vue'
   position: sticky;
   top: 0;
   background: #fff;
-  z-index: 9999;
+  z-index: 1000;
 
   .container {
     display: flex;

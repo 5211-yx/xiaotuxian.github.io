@@ -12,6 +12,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 //实际的路径转化
 export default defineConfig({
+  base: '/xiaotuxian/',
   plugins: [
     vue(),
     vueDevTools(),
